@@ -97,4 +97,8 @@ git commit -m "comments apa aaja"
 git push heroku master
 demo: https://vast-citadel-25499.herokuapp.com/
 
+bila ketika push ke heroku, sinyal internet terputus. ulangi lagi deploy dengan command berikut:
+$ git commit --allow-empty -m "Trigger Heroku deploy after enabling collectstatic"
+$ git push heroku master
+
 after push ke repo github ini, client folder secara otomatis tidak ikut terupload ke repo ini karena diikutkan dalam .gitignore bersama node_modules.
