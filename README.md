@@ -95,4 +95,6 @@ git add .
 git commit -m "comments apa aaja"
 (semua uptodate)
 git push heroku master
+demo: https://vast-citadel-25499.herokuapp.com/
 
+after push ke repo github ini, client folder secara otomatis tidak ikut terupload ke repo ini karena diikutkan dalam .gitignore bersama node_modules.
